@@ -11,7 +11,7 @@ Under Construction
 A pasta src/ contém os códigos separados por módulos e aulas:
 
 - Módulo 2 – Terminal
-- m2aula1: ********************\*\*\*\*********************
+- m2aula1: Exemplo de códigos simples de LangChain e LangGraph
 - m2aula2: ********************\*\*\*\*********************
 - m2aula3: ********************\*\*\*\*********************
 - m2aula4: ********************\*\*\*\*********************
