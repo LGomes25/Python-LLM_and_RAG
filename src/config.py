@@ -1,13 +1,20 @@
 import os
 from langchain_openai import ChatOpenAI
+from dotenv import load_dotenv
 from openai import OpenAI
+
+load_dotenv()
 
 # Configuração comum
 BASE_URL = "http://127.0.0.1:1234/v1"
-API_KEY = "lm-studio"
 MODEL_NAME = "meta-llama-3.1-8b-instruct"
+HF_TOKEN = os.getenv("HF_TOKEN")
+API_KEY = os.getenv("OPENAI_API_KEY")
 
-os.environ["OPENAI_API_KEY"] = API_KEY
+if HF_TOKEN:
+    os.environ["HF_TOKEN"] = HF_TOKEN
+if API_KEY:
+    os.environ["OPENAI_API_KEY"] = API_KEY
 
 
 def get_langchain_model():  # <= nome da função a ser importada

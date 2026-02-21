@@ -42,3 +42,6 @@ Thumbs.db
 
 # Local configs
 *.env
+
+# ChromaDB directories (BD)
+chroma_*/
