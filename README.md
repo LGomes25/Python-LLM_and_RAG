@@ -9,7 +9,7 @@ A pasta src/ contém os códigos separados por módulos e aulas:
 - Módulo 2 – Terminal
 - m2aula1: Códigos simples de LangChain e LangGraph
 - m2aula2: Códigos com LangChain e LangGraph, aplicando BD Vetorial e recursos necessários
-- m2aula3: **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
+- m2aula3: Códigos com Loaders e ChromaDDB, com recuperação de dados do banco
 - m2aula4: **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
 - Módulo 3 – Streamlit
 - m3aula1: **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
