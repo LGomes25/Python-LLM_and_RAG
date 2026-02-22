@@ -45,3 +45,6 @@ Thumbs.db
 
 # ChromaDB directories (BD)
 chroma_*/
+
+# Data (arquivos de download para testes)
+data/
