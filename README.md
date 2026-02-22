@@ -143,13 +143,15 @@ Atualize o pip e instale as bibliotecas:
 - pip install -U langchain-text-splitters   // faz chunks de textos
 - pip install -U wikipedia                  // biblioteca que acessa a api do wikipedia
 
-**Leitores de PDF**
-+ pip install -U pypdf                      // leitor de pdf
-+ pip install -U pymupdf                    // leitor de pdf
+**Leitores de PDF/HTML**
+- pip install -U pypdf                      // leitor de pdf
+- pip install -U pymupdf                    // leitor de pdf
+- pip install -U beautifulsoup4             // leitor de html
+- pip install -U lxml                       // leitor de html
 
 **Utilitários gerais**
-+ pip install -U python-dotenv
-+ pip install -U requests
+- pip install -U python-dotenv
+- pip install -U requests
 
 ***Visualização***
 - pip install -U streamlit                  // visual para o chat
