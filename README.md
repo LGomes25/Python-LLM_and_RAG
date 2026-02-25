@@ -11,7 +11,7 @@ A pasta src/ contém os códigos separados por módulos e aulas:
 - m2aula2: Códigos com LangChain e LangGraph, aplicando BD Vetorial e recursos
 - m2aula3: Códigos com Loaders e ChromaDDB, com recuperação de dados do banco
 - m2aula4: Códigos com data ingestion com uso de loaders,retriever e aplicação de QA tanto em Chain quanto em Graph.
-- m2aula5: **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
+- m2aula5: Códigos com personalização das respostas do RAG com parâmetros e prompts.
 - Módulo 3 – Streamlit
 - m3aula1: **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
 - m3aula2: **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
