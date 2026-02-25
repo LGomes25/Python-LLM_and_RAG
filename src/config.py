@@ -1,6 +1,7 @@
 import os
-from langchain_openai import ChatOpenAI
+
 from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
 from openai import OpenAI
 
 load_dotenv()
@@ -17,14 +18,16 @@ if API_KEY:
     os.environ["OPENAI_API_KEY"] = API_KEY
 
 
-def get_langchain_model():  # <= nome da função a ser importada
+def get_langchain_model(
+    temperature: float = 0.5, max_completion_tokens: int = 500, streaming: bool = True
+):
     """Retorna modelo configurado para uso com LangChain."""
     return ChatOpenAI(
         model=MODEL_NAME,
         base_url=BASE_URL,
-        temperature=0.2,
-        max_completion_tokens=500,
-        streaming=True,
+        temperature=temperature,
+        max_completion_tokens=max_completion_tokens,
+        streaming=streaming,
     )
 
 
