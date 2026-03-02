@@ -1,5 +1,3 @@
-from logging import warning
-
 import streamlit as st
 
 from src.config import get_langchain_model
