@@ -16,7 +16,7 @@ A pasta src/ contém os códigos separados por módulos e aulas:
 - m3aula1: Código simples com langchain e streamlit
 - m3aula2: Código aula com langgraph e memoria e atividade com langchain e memoria
 - m3aula3: Código com pipeline, chatbot e interface
-- m3aula4: **\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
+- m3aula4: Reaplicação do código da aula3
 
 # ⚙️ Configuração do LM Studio
 
