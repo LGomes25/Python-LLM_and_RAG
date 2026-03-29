@@ -134,7 +134,7 @@ Atualize o pip e instale as bibliotecas:
 - pip install "langchain-huggingface==1.2.0"
 - pip install "huggingface-hub==0.36.2"
 - pip install "transformers==4.57.6"
-- pip install "sentence-transformers==4.6.1"      // gerador de embeddings - HuggingFaceEmbeddings
+- pip install "sentence-transformers==5.2.3"      // gerador de embeddings - HuggingFaceEmbeddings
 
 **Banco vetorial Chroma**
 - pip install -U chromadb                   // cliente Python do ChromaDB - banco de Dados Vetorial
